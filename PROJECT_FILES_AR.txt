@@ -1,0 +1,17 @@
+هذا هو مشروع Android كامل متعدد الملفات، وليس ملف MainActivity منفرداً.
+افتح مجلد QuitNow_Android_Project في Android Studio.
+الجذر الصحيح يحتوي settings.gradle.kts و gradlew.bat.
+
+الملفات الأساسية:
+- app/src/main/java/com/toquitsmoking/quitnow/MainActivity.kt
+- app/src/main/java/com/toquitsmoking/quitnow/QuitNowApp.kt
+- app/src/main/java/com/toquitsmoking/quitnow/data/UserPreferences.kt
+- app/src/main/java/com/toquitsmoking/quitnow/domain/ProgressCalculator.kt
+- app/src/main/java/com/toquitsmoking/quitnow/ui/Palette.kt
+- app/src/main/java/com/toquitsmoking/quitnow/ui/screens/ (8 شاشات)
+- app/src/test/java/com/toquitsmoking/quitnow/domain/ProgressCalculatorTest.kt
+
+راجع BUILD_GUIDE_AR.md قبل البناء.
+
+GITHUB_SETUP_AR.md — دليل عربي لإعداد مستودع GitHub وتشغيل البناء والاختبارات السحابية دون تثبيت أدوات على الحاسوب.
+.github/workflows/android-ci.yml — سير GitHub Actions لاختبارات الوحدة وAndroid Lint وبناء APK وAAB غير موقّع.
